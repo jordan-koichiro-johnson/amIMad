@@ -1,7 +1,7 @@
 const express = require('express');
 var bodyParser = require('body-parser')
 const path = require('path')
-const PORT = process.env.PORT
+
 const app = express();
 const router = express.Router()
 const { SentimentAnalyzer, stemmer } = require('natural');
@@ -28,7 +28,7 @@ router.post('/natural', (req, res) => {
 
 
 
-app.listen(PORT, () => {
-    console.log(`listening on port ${PORT}`)
+app.listen(process.env.PORT, () => {
+
 })
 
