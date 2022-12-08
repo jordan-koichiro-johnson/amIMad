@@ -1,7 +1,7 @@
 const express = require('express');
 var bodyParser = require('body-parser')
 const path = require('path')
-const PORT = 3009
+const PORT = process.env.PORT
 const app = express();
 const router = express.Router()
 const { SentimentAnalyzer, stemmer } = require('natural');
