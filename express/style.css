@@ -1,0 +1,87 @@
+body {
+    background-color:
+        #242A61;
+    color: white;
+    text-align: center;
+}
+
+form {
+    margin-top: 3vh;
+}
+
+input {
+    background-color: #5B2461;
+    color: white;
+}
+
+h1 {
+    margin: 5vh;
+}
+
+a {
+    color: #24615B;
+    text-decoration: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.btn {
+    background-color: #612448;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #5B2461;
+}
+
+.background {
+    background-color:
+        #242A61;
+}
+
+#responseDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.paste {
+    margin-top: 10vh;
+}
+
+.hidden {
+
+    display: none;
+}
+
+.card {
+    background-color: #24615B;
+}
+
+.footer {
+    padding: 2vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5B2461;
+    color: white;
+    text-align: center;
+}
+
+.social {
+    color: #24615B;
+    text-decoration: none;
+}
